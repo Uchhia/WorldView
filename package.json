@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "vite": "^4.5.0"
+  },
+  "script": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
